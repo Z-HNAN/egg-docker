@@ -9,9 +9,8 @@ RUN rm -rf /app
 RUN mkdir /app
 WORKDIR /app
 
-# 安装项目依赖
+# 将项目拷贝到工作目录中
 COPY . /app
-RUN npm install
 
 
 # 对外暴露端口
