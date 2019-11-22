@@ -21,7 +21,7 @@ module.exports = appInfo => {
   // mongoDB
   config.mongoose = {
     client: {
-      url: 'mongodb://127.0.0.1/egg-demo',
+      url: 'mongodb://127.0.0.1:27017/egg-demo',
       options: {
         useUnifiedTopology: true,
       },
